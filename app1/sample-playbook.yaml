@@ -1,0 +1,10 @@
+- name: sample playbook
+  hosts: app21,app22
+
+  tasks:
+  - name: check up time
+    ansible.builtin.command: uptime
+    
+  - name: check git version
+    ansible.builtin.command: git --version 
+   
