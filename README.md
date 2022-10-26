@@ -1,4 +1,4 @@
-Main Folder ---> app1<n>
+Main Folder ---> app1</n>
   ansible inventory file---->app1/host<n>
   ansible playbook file ---->app1/sample-playbook.yaml<n>
   application file ---------> app1/server.js<n>
